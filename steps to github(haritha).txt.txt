@@ -16,13 +16,13 @@ CMD mvn spring-boot:run
 10.push service class and push to git with messsage by using service commit
 11.push controller class to git with messsage by using Controller commit
 12.openJdk version 17
-12.add plugins in pom.xml.
-13.Create docker-compose.yml
-12.after that you have test whether its working or not by using Adhoc testing
-13.by using pull of git hub repository in docker play ground
-15.create docker image using docker and build command.
-16.then you have to login on docker
-17.create Docker Repository in Docker hub
-17.in that tag image create repository
-18.push  the image into docker repository
+13.add plugins in pom.xml.
+14.Create docker-compose.yml
+15.after that you have test whether its working or not by using Adhoc testing
+16.by using pull of git hub repository in docker play ground
+17.create docker image using docker and build command.
+18.then you have to login on docker
+19.create Docker Repository in Docker hub
+20.in that tag image create repository
+21.push  the image into docker repository
 
