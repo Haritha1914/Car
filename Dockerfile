@@ -12,7 +12,7 @@ FROM openjdk:17-jdk-slim
 
 # Refer to Maven build -> finalName
 
-ARG JAR_FILE=target/Car-project.jar
+ARG JAR_FILE=target/car-project.jar
 
  
 
