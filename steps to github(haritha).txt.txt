@@ -1,0 +1,28 @@
+1.we have to create git hub account,docker account,docker play ground
+2.create a spring boot project(46331916 car)
+3.then you have to create entity project
+4.in that we have add dependencies(web,jpa,postgresql)
+5.we should follow the package stucture like dao,entity,controller,service,repository
+6.add Docker file in your project
+# FROM maven:3.8.5-openjdk-17 # for Java 17
+FROM maven:3.8.2-jdk-8
+WORKDIR /empIdEntityProject
+COPY . .
+RUN mvn clean install
+CMD mvn spring-boot:run
+7.push entity class and push to git with messsage by using entity commit
+8.push dao interface and push to git with messsage by using dao commit
+9.push repository interface and push to git with messsage by using repository commit
+10.push service class and push to git with messsage by using service commit
+11.push controller class to git with messsage by using Controller commit
+12.openJdk version 17
+12.add plugins in pom.xml.
+13.Create docker-compose.yml
+12.after that you have test whether its working or not by using Adhoc testing
+13.by using pull of git hub repository in docker play ground
+15.create docker image using docker and build command.
+16.then you have to login on docker
+17.create Docker Repository in Docker hub
+17.in that tag image create repository
+18.push  the image into docker repository
+
