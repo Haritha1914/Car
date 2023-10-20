@@ -1,0 +1,6 @@
+com\cg\Application.class
+com\cg\controller\CarController.class
+com\cg\dao\CarDao.class
+com\cg\entity\Car.class
+com\cg\repository\CarRepository.class
+com\cg\service\CarServiceImpl.class
