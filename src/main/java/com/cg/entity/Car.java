@@ -1,17 +1,18 @@
 package com.cg.entity;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+
 @Entity
 public class Car {
-	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int regnum;
-	private String carNumber;
+	private String carNumber;  
 	private String name;
 	public Car(int regnum, String carNumber, String name) {
 		super();
